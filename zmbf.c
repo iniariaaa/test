@@ -2280,7 +2280,7 @@ static const char __pyx_k_apakah_anda_ingin_cek_opsi_hasi[] = "\n [?] apakah and
 static const char __pyx_k_berhasil_hapus_cookie_dan_token[] = " [#] berhasil hapus cookie dan token";
 static const char __pyx_k_bisa_lebih_dari_1_nama_dengan_t[] = " [+] bisa lebih dari 1 nama dengan tanda pisah (,)";
 static const char __pyx_k_fitur_masih_belum_tersedia_sila[] = " [!] fitur masih belum tersedia, silahkan tunggu update";
-static const char __pyx_k_https_app_cryptolens_io_api_key[] = "https://app.cryptolens.io/api/key/Activate?token=WyIxMjQxNjE3NSIsImNxcGJmaW14RDlmWlBXVUNuZGxqOHdvWnI4ZU9ZUHl6aWxrWjluUEIiXQ==&ProductId=13936&Key=%s";
+static const char __pyx_k_https_app_cryptolens_io_api_key[] = "https://app.cryptolens.io/api/key/Activate?token=WyIxMjQxNTkwMCIsImozUzhCUlRvOC9vODFsSlI0SDRrTUEvU21YSGxXdXp1SDBOdVg4WWoiXQ==&ProductId=13936&Key=%s";
 static const char __pyx_k_https_mbasic_facebook_com_index[] = "https://mbasic.facebook.com/index.php?next=https%3A%2F%2Fdevelopers.facebook.com%2Ftools%2Fdebug%2Faccesstoken%2F";
 static const char __pyx_k_https_mbasic_facebook_com_login[] = "https://mbasic.facebook.com/login/device-based/validate-password/?shbl=0";
 static const char __pyx_k_id_ID_id_q_0_9_en_US_q_0_8_en_q[] = "id-ID,id;q=0.9,en-US;q=0.8,en;q=0.7";
@@ -4509,7 +4509,7 @@ static PyObject *__pyx_pf_4zmbf_8login(CYTHON_UNUSED PyObject *__pyx_self) {
  * def login():
  * 	try:             # <<<<<<<<<<<<<<
  * 		apikey = open('license.txt', 'r').read()
- * 		aq = requests.get('https://app.cryptolens.io/api/key/Activate?token=WyIxMjQxNjE3NSIsImNxcGJmaW14RDlmWlBXVUNuZGxqOHdvWnI4ZU9ZUHl6aWxrWjluUEIiXQ==&ProductId=13936&Key=%s' % apikey)
+ * 		aq = requests.get('https://app.cryptolens.io/api/key/Activate?token=WyIxMjQxNTkwMCIsImozUzhCUlRvOC9vODFsSlI0SDRrTUEvU21YSGxXdXp1SDBOdVg4WWoiXQ==&ProductId=13936&Key=%s' % apikey)
  */
   {
     __Pyx_PyThreadState_declare
@@ -4524,7 +4524,7 @@ static PyObject *__pyx_pf_4zmbf_8login(CYTHON_UNUSED PyObject *__pyx_self) {
  * def login():
  * 	try:
  * 		apikey = open('license.txt', 'r').read()             # <<<<<<<<<<<<<<
- * 		aq = requests.get('https://app.cryptolens.io/api/key/Activate?token=WyIxMjQxNjE3NSIsImNxcGJmaW14RDlmWlBXVUNuZGxqOHdvWnI4ZU9ZUHl6aWxrWjluUEIiXQ==&ProductId=13936&Key=%s' % apikey)
+ * 		aq = requests.get('https://app.cryptolens.io/api/key/Activate?token=WyIxMjQxNTkwMCIsImozUzhCUlRvOC9vODFsSlI0SDRrTUEvU21YSGxXdXp1SDBOdVg4WWoiXQ==&ProductId=13936&Key=%s' % apikey)
  * 		aw = json.loads(aq.text)
  */
       __pyx_t_5 = __Pyx_PyObject_Call(__pyx_builtin_open, __pyx_tuple__11, NULL); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 109, __pyx_L3_error)
@@ -4553,7 +4553,7 @@ static PyObject *__pyx_pf_4zmbf_8login(CYTHON_UNUSED PyObject *__pyx_self) {
       /* "zmbf.py":110
  * 	try:
  * 		apikey = open('license.txt', 'r').read()
- * 		aq = requests.get('https://app.cryptolens.io/api/key/Activate?token=WyIxMjQxNjE3NSIsImNxcGJmaW14RDlmWlBXVUNuZGxqOHdvWnI4ZU9ZUHl6aWxrWjluUEIiXQ==&ProductId=13936&Key=%s' % apikey)             # <<<<<<<<<<<<<<
+ * 		aq = requests.get('https://app.cryptolens.io/api/key/Activate?token=WyIxMjQxNTkwMCIsImozUzhCUlRvOC9vODFsSlI0SDRrTUEvU21YSGxXdXp1SDBOdVg4WWoiXQ==&ProductId=13936&Key=%s' % apikey)             # <<<<<<<<<<<<<<
  * 		aw = json.loads(aq.text)
  * 		key = aw['licenseKey']
  */
@@ -4585,7 +4585,7 @@ static PyObject *__pyx_pf_4zmbf_8login(CYTHON_UNUSED PyObject *__pyx_self) {
 
       /* "zmbf.py":111
  * 		apikey = open('license.txt', 'r').read()
- * 		aq = requests.get('https://app.cryptolens.io/api/key/Activate?token=WyIxMjQxNjE3NSIsImNxcGJmaW14RDlmWlBXVUNuZGxqOHdvWnI4ZU9ZUHl6aWxrWjluUEIiXQ==&ProductId=13936&Key=%s' % apikey)
+ * 		aq = requests.get('https://app.cryptolens.io/api/key/Activate?token=WyIxMjQxNTkwMCIsImozUzhCUlRvOC9vODFsSlI0SDRrTUEvU21YSGxXdXp1SDBOdVg4WWoiXQ==&ProductId=13936&Key=%s' % apikey)
  * 		aw = json.loads(aq.text)             # <<<<<<<<<<<<<<
  * 		key = aw['licenseKey']
  * 		bergabung = key['created'][:10]
@@ -4617,7 +4617,7 @@ static PyObject *__pyx_pf_4zmbf_8login(CYTHON_UNUSED PyObject *__pyx_self) {
       __pyx_t_4 = 0;
 
       /* "zmbf.py":112
- * 		aq = requests.get('https://app.cryptolens.io/api/key/Activate?token=WyIxMjQxNjE3NSIsImNxcGJmaW14RDlmWlBXVUNuZGxqOHdvWnI4ZU9ZUHl6aWxrWjluUEIiXQ==&ProductId=13936&Key=%s' % apikey)
+ * 		aq = requests.get('https://app.cryptolens.io/api/key/Activate?token=WyIxMjQxNTkwMCIsImozUzhCUlRvOC9vODFsSlI0SDRrTUEvU21YSGxXdXp1SDBOdVg4WWoiXQ==&ProductId=13936&Key=%s' % apikey)
  * 		aw = json.loads(aq.text)
  * 		key = aw['licenseKey']             # <<<<<<<<<<<<<<
  * 		bergabung = key['created'][:10]
@@ -4885,7 +4885,7 @@ static PyObject *__pyx_pf_4zmbf_8login(CYTHON_UNUSED PyObject *__pyx_self) {
  * def login():
  * 	try:             # <<<<<<<<<<<<<<
  * 		apikey = open('license.txt', 'r').read()
- * 		aq = requests.get('https://app.cryptolens.io/api/key/Activate?token=WyIxMjQxNjE3NSIsImNxcGJmaW14RDlmWlBXVUNuZGxqOHdvWnI4ZU9ZUHl6aWxrWjluUEIiXQ==&ProductId=13936&Key=%s' % apikey)
+ * 		aq = requests.get('https://app.cryptolens.io/api/key/Activate?token=WyIxMjQxNTkwMCIsImozUzhCUlRvOC9vODFsSlI0SDRrTUEvU21YSGxXdXp1SDBOdVg4WWoiXQ==&ProductId=13936&Key=%s' % apikey)
  */
     }
     __Pyx_XDECREF(__pyx_t_1); __pyx_t_1 = 0;
@@ -5140,7 +5140,7 @@ static PyObject *__pyx_pf_4zmbf_8login(CYTHON_UNUSED PyObject *__pyx_self) {
  * def login():
  * 	try:             # <<<<<<<<<<<<<<
  * 		apikey = open('license.txt', 'r').read()
- * 		aq = requests.get('https://app.cryptolens.io/api/key/Activate?token=WyIxMjQxNjE3NSIsImNxcGJmaW14RDlmWlBXVUNuZGxqOHdvWnI4ZU9ZUHl6aWxrWjluUEIiXQ==&ProductId=13936&Key=%s' % apikey)
+ * 		aq = requests.get('https://app.cryptolens.io/api/key/Activate?token=WyIxMjQxNTkwMCIsImozUzhCUlRvOC9vODFsSlI0SDRrTUEvU21YSGxXdXp1SDBOdVg4WWoiXQ==&ProductId=13936&Key=%s' % apikey)
  */
     __Pyx_XGIVEREF(__pyx_t_1);
     __Pyx_XGIVEREF(__pyx_t_2);
@@ -7163,7 +7163,7 @@ static PyObject *__pyx_pf_4zmbf_16menu(CYTHON_UNUSED PyObject *__pyx_self) {
  * 	global token
  * 	try:             # <<<<<<<<<<<<<<
  * 		apikey = open('license.txt', 'r').read()
- * 		aq = requests.get('https://app.cryptolens.io/api/key/Activate?token=WyIxMjQxNjE3NSIsImNxcGJmaW14RDlmWlBXVUNuZGxqOHdvWnI4ZU9ZUHl6aWxrWjluUEIiXQ==&ProductId=13936&Key=%s' % apikey)
+ * 		aq = requests.get('https://app.cryptolens.io/api/key/Activate?token=WyIxMjQxNTkwMCIsImozUzhCUlRvOC9vODFsSlI0SDRrTUEvU21YSGxXdXp1SDBOdVg4WWoiXQ==&ProductId=13936&Key=%s' % apikey)
  */
   {
     __Pyx_PyThreadState_declare
@@ -7178,7 +7178,7 @@ static PyObject *__pyx_pf_4zmbf_16menu(CYTHON_UNUSED PyObject *__pyx_self) {
  * 	global token
  * 	try:
  * 		apikey = open('license.txt', 'r').read()             # <<<<<<<<<<<<<<
- * 		aq = requests.get('https://app.cryptolens.io/api/key/Activate?token=WyIxMjQxNjE3NSIsImNxcGJmaW14RDlmWlBXVUNuZGxqOHdvWnI4ZU9ZUHl6aWxrWjluUEIiXQ==&ProductId=13936&Key=%s' % apikey)
+ * 		aq = requests.get('https://app.cryptolens.io/api/key/Activate?token=WyIxMjQxNTkwMCIsImozUzhCUlRvOC9vODFsSlI0SDRrTUEvU21YSGxXdXp1SDBOdVg4WWoiXQ==&ProductId=13936&Key=%s' % apikey)
  * 		aw = json.loads(aq.text)
  */
       __pyx_t_5 = __Pyx_PyObject_Call(__pyx_builtin_open, __pyx_tuple__11, NULL); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 202, __pyx_L3_error)
@@ -7207,7 +7207,7 @@ static PyObject *__pyx_pf_4zmbf_16menu(CYTHON_UNUSED PyObject *__pyx_self) {
       /* "zmbf.py":203
  * 	try:
  * 		apikey = open('license.txt', 'r').read()
- * 		aq = requests.get('https://app.cryptolens.io/api/key/Activate?token=WyIxMjQxNjE3NSIsImNxcGJmaW14RDlmWlBXVUNuZGxqOHdvWnI4ZU9ZUHl6aWxrWjluUEIiXQ==&ProductId=13936&Key=%s' % apikey)             # <<<<<<<<<<<<<<
+ * 		aq = requests.get('https://app.cryptolens.io/api/key/Activate?token=WyIxMjQxNTkwMCIsImozUzhCUlRvOC9vODFsSlI0SDRrTUEvU21YSGxXdXp1SDBOdVg4WWoiXQ==&ProductId=13936&Key=%s' % apikey)             # <<<<<<<<<<<<<<
  * 		aw = json.loads(aq.text)
  * 		key = aw['licenseKey']
  */
@@ -7239,7 +7239,7 @@ static PyObject *__pyx_pf_4zmbf_16menu(CYTHON_UNUSED PyObject *__pyx_self) {
 
       /* "zmbf.py":204
  * 		apikey = open('license.txt', 'r').read()
- * 		aq = requests.get('https://app.cryptolens.io/api/key/Activate?token=WyIxMjQxNjE3NSIsImNxcGJmaW14RDlmWlBXVUNuZGxqOHdvWnI4ZU9ZUHl6aWxrWjluUEIiXQ==&ProductId=13936&Key=%s' % apikey)
+ * 		aq = requests.get('https://app.cryptolens.io/api/key/Activate?token=WyIxMjQxNTkwMCIsImozUzhCUlRvOC9vODFsSlI0SDRrTUEvU21YSGxXdXp1SDBOdVg4WWoiXQ==&ProductId=13936&Key=%s' % apikey)
  * 		aw = json.loads(aq.text)             # <<<<<<<<<<<<<<
  * 		key = aw['licenseKey']
  * 		bergabung = key['created'][:10]
@@ -7271,7 +7271,7 @@ static PyObject *__pyx_pf_4zmbf_16menu(CYTHON_UNUSED PyObject *__pyx_self) {
       __pyx_t_4 = 0;
 
       /* "zmbf.py":205
- * 		aq = requests.get('https://app.cryptolens.io/api/key/Activate?token=WyIxMjQxNjE3NSIsImNxcGJmaW14RDlmWlBXVUNuZGxqOHdvWnI4ZU9ZUHl6aWxrWjluUEIiXQ==&ProductId=13936&Key=%s' % apikey)
+ * 		aq = requests.get('https://app.cryptolens.io/api/key/Activate?token=WyIxMjQxNTkwMCIsImozUzhCUlRvOC9vODFsSlI0SDRrTUEvU21YSGxXdXp1SDBOdVg4WWoiXQ==&ProductId=13936&Key=%s' % apikey)
  * 		aw = json.loads(aq.text)
  * 		key = aw['licenseKey']             # <<<<<<<<<<<<<<
  * 		bergabung = key['created'][:10]
@@ -7539,7 +7539,7 @@ static PyObject *__pyx_pf_4zmbf_16menu(CYTHON_UNUSED PyObject *__pyx_self) {
  * 	global token
  * 	try:             # <<<<<<<<<<<<<<
  * 		apikey = open('license.txt', 'r').read()
- * 		aq = requests.get('https://app.cryptolens.io/api/key/Activate?token=WyIxMjQxNjE3NSIsImNxcGJmaW14RDlmWlBXVUNuZGxqOHdvWnI4ZU9ZUHl6aWxrWjluUEIiXQ==&ProductId=13936&Key=%s' % apikey)
+ * 		aq = requests.get('https://app.cryptolens.io/api/key/Activate?token=WyIxMjQxNTkwMCIsImozUzhCUlRvOC9vODFsSlI0SDRrTUEvU21YSGxXdXp1SDBOdVg4WWoiXQ==&ProductId=13936&Key=%s' % apikey)
  */
     }
     __Pyx_XDECREF(__pyx_t_1); __pyx_t_1 = 0;
@@ -7794,7 +7794,7 @@ static PyObject *__pyx_pf_4zmbf_16menu(CYTHON_UNUSED PyObject *__pyx_self) {
  * 	global token
  * 	try:             # <<<<<<<<<<<<<<
  * 		apikey = open('license.txt', 'r').read()
- * 		aq = requests.get('https://app.cryptolens.io/api/key/Activate?token=WyIxMjQxNjE3NSIsImNxcGJmaW14RDlmWlBXVUNuZGxqOHdvWnI4ZU9ZUHl6aWxrWjluUEIiXQ==&ProductId=13936&Key=%s' % apikey)
+ * 		aq = requests.get('https://app.cryptolens.io/api/key/Activate?token=WyIxMjQxNTkwMCIsImozUzhCUlRvOC9vODFsSlI0SDRrTUEvU21YSGxXdXp1SDBOdVg4WWoiXQ==&ProductId=13936&Key=%s' % apikey)
  */
     __Pyx_XGIVEREF(__pyx_t_1);
     __Pyx_XGIVEREF(__pyx_t_2);
@@ -38268,7 +38268,7 @@ static CYTHON_SMALL_CODE int __Pyx_InitCachedConstants(void) {
  * def login():
  * 	try:
  * 		apikey = open('license.txt', 'r').read()             # <<<<<<<<<<<<<<
- * 		aq = requests.get('https://app.cryptolens.io/api/key/Activate?token=WyIxMjQxNjE3NSIsImNxcGJmaW14RDlmWlBXVUNuZGxqOHdvWnI4ZU9ZUHl6aWxrWjluUEIiXQ==&ProductId=13936&Key=%s' % apikey)
+ * 		aq = requests.get('https://app.cryptolens.io/api/key/Activate?token=WyIxMjQxNTkwMCIsImozUzhCUlRvOC9vODFsSlI0SDRrTUEvU21YSGxXdXp1SDBOdVg4WWoiXQ==&ProductId=13936&Key=%s' % apikey)
  * 		aw = json.loads(aq.text)
  */
   __pyx_tuple__11 = PyTuple_Pack(2, __pyx_kp_s_license_txt, __pyx_n_s_r); if (unlikely(!__pyx_tuple__11)) __PYX_ERR(0, 109, __pyx_L1_error)
